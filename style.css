@@ -1,0 +1,82 @@
+:root
+{
+    --button-color: #4A60A1;
+}
+
+html {
+    font-family: "Public-Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+}
+
+*, *::after, *::before
+{
+    box-sizing: inherit;
+}
+
+@media (min-width: 1000px) {
+    
+    .header
+    {
+        padding: 38px 0;
+        width: auto;
+        background-image: url(./sourse/img/header-back.png);
+        background-position: 0 0;
+        background-size: auto auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .header-content
+    {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .header-line-1
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 30px;
+    }
+
+    .hl-side
+    {
+        gap: 16px;
+        display: flex;
+        align-items: center;
+    }
+
+    .iconh
+    {
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+    }
+
+    .hl-p-ex
+    {
+        font-weight: 700;
+    }
+
+    .hl-p
+    {
+        font-style: normal;
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .stick
+    {
+        background-color: white;
+        width: 2px;
+        height: 40px;
+    }
+}
